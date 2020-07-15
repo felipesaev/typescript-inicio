@@ -55,3 +55,11 @@ function error(): never {
 
 let cart: object
 cart = {}
+
+// Type Inference
+let message2 = "felipe costa"
+message2 = "felipe santos"
+
+window.addEventListener("click", (e) => {
+  console.log(e.target);
+} )
